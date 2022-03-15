@@ -46,12 +46,22 @@ print(car4.color,car4.axles)
 
 cars.append(car4)
 
-print(cars)
+print(cars) # <---- prints location, NOT list; list has objects; it's an onion, a tunk containing buckets
+
 for _ in cars:
   print(_.make,_.model)
   
   if _.seats == "": # <------ present exception
     _.seats = "null"
   print(_.color,_.seats) #<--- push command, w/ formatted exception
-  if _.seats == "": # <--- separate if statement
+  if _.seats == "": # <--- separate if statement, which is considered AFTER previous command; not recursive
     print("NULL")
+
+carlist = []
+for _ in cars:
+  carlist.append(_.model)
+
+print(carlist) #<--- how to properly print list content with variables/objects; KIA is added because of line 47
+
+colors = ["r","g","b","v"]
+print(colors)
