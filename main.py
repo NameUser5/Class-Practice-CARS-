@@ -46,7 +46,7 @@ print(car4.color,car4.axles)
 
 cars.append(car4)
 
-print(cars) # <---- prints location, NOT list; list has objects; it's an onion, a tunk containing buckets
+print(cars) # <---- prints location, NOT list; list has objects; it's an onion; a trunk containing buckets
 
 for _ in cars:
   print(_.make,_.model)
