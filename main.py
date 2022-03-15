@@ -1,4 +1,5 @@
 from cars import Cars
+from pricing import Prices
 
 car1 = Cars("Toyota","Celica",2000,"Cherry Luxe","cloth")
 car2 = Cars("Ford","Model T",1930,"British Racing Green","leather")
@@ -65,3 +66,11 @@ print(carlist) #<--- how to properly print list content with variables/objects; 
 
 colors = ["r","g","b","v"]
 print(colors)
+
+'''INDIE PROJECT: Mystery box -- random car, random build; ask user if they want one
+
+Tier 2: make the person pay for one. The more they pay, the higher the chances of getting a lux model -- gambling :)
+
+Tier 3: the more paid, the higher changes of getting lux make AND lux model, in color of choice
+
+Tier 4: set probablity percentage for each make, model, color,and year; aggregate probability (like Terraria and other games)'''
