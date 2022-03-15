@@ -69,10 +69,10 @@ print(colors)
 
 '''INDIE PROJECT: Mystery box -- random car, random build; ask user if they want one, for free
 
-Tier 2: make the user pay for one. The more they pay, the higher the chances of getting a lux model -- gambling :)
+Tier 2: make the user "pay" for one. The more they pay, the higher the chances of getting a lux model -- raffle-type gambling :)
 
 Tier 3: the more paid, the higher changes of getting lux make AND lux model, in color of choice
 
 Tier 4: set probablity percentage for each make, model, color,and year; aggregate probability (like Terraria and other games)
 
-Tier 5: complex probability--eg: some attributes are crap and will hurt your chances from getting a top tier car aka lower the better probabilities. Like a slot machine, but worse.'''
+Tier 5: complex probability--eg: some attributes are crap and will hurt your chances of getting a top tier car aka lower the more desirable probabilities. Like a slot machine, but worse.'''
