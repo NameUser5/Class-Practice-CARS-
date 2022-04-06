@@ -52,11 +52,11 @@ print(cars) # <---- prints location, NOT list; list has objects; it's an onion; 
 for _ in cars:
   print(_.make,_.model)
   
-  if _.seats == "": # <------ present exception
+  if _.seats == "": # <------ METHOD 1: present exception
     _.seats = "null"
   print(_.color,_.seats) #<--- push command, w/ formatted exception
-  if _.seats == "": # <--- separate if statement, which is considered AFTER previous command; not recursive
-    print("NULL")
+  # if _.seats == "": # <--- METHOD 2: separate if statement, which is considered AFTER previous command; not recursive, overrides ALL printing in line 53
+  #   print("NULL")
 
 carlist = []
 for _ in cars:
@@ -66,6 +66,36 @@ print(carlist) #<--- how to properly print list content with variables/objects; 
 
 colors = ["r","g","b","v"]
 print(colors)
+
+#base_price, mid_price = 0, deluxe_price = 0)
+
+price1 = Prices(25000,32000,46000)
+price2 = Prices(18000,35000,64000)
+price3 = Prices(86000,96000,106000)
+price4 = Prices(36000,45000,52000)
+
+car1.base = price1.base_price
+car1.mid = price1.mid_price
+car1.deluxe = price1.deluxe_price
+
+car2.base = price2.base_price
+car2.mid = price2.mid_price
+car2.deluxe = price2.deluxe_price
+
+car3.base = price3.base_price
+car3.mid = price3.mid_price
+car3.deluxe = price3.deluxe_price
+
+car4.base = price4.base_price
+car4.mid = price4.mid_price
+car4.deluxe = price4.deluxe_price
+
+print(car1.base)
+print(car4.deluxe)
+
+import random
+
+
 
 '''INDIE PROJECT: Mystery box -- random car, random build; ask user if they want one, for free
 
